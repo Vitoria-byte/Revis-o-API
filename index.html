@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes e Series</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegação -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <ul class="nav-links-left">
+        <li><a href="#" class="nav-link">Início</a></li>
+        <li><a href="#" class="nav-link">Filmes</a></li>
+        <li><a href="#" class="nav-link">Séries</a></li>
+      </ul>
+      
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Pesquisar...">
+        <button class="search-btn"><img src="https://img.icons8.com/ios/452/search.png" alt="Search Icon" width="20"></button>
+      </div>
+
+      <ul class="nav-links-right">
+        <li><a href="#" class="nav-link">Entrar</a></li>
+        <li><a href="#" class="nav-link">Cadastrar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Corpo principal -->
+  <header>
+    <h1>Filmes e Séries</h1>
+  </header>
+
+  <main>
+    <section id="container" class="container">
+      <!-- Aqui os filmes serão carregados -->
+    </section>
+
+    <div class="button-container">
+      <button id="loadMovies" class="load-movies-btn">Carregar Filmes</button>
+    </div>
+
+    <!-- Div de loading -->
+    <div id="loading" class="loading-spinner" style="display: none;">
+      Carregando filmes...
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
